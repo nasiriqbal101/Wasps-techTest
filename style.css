@@ -26,7 +26,7 @@ button {
   padding: 3px;
   width: 100px;
   height: 35px;
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
   margin-top: 30px;
   border-radius: 5px;
 }

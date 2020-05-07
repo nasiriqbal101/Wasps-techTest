@@ -31,7 +31,6 @@ let wasps = [];
 const queen = new Queen();
 wasps.push(queen);
 
-
 for (i = 0; i < 5; i++) {
     const worker = new Worker()
     wasps.push(worker);
