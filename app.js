@@ -56,7 +56,6 @@ const makeDivs = () => {
 }
 
 document.querySelector('.btn').addEventListener("click", () => {
-
     let randomNumber = Math.floor(Math.random() * wasps.length);
     wasps[randomNumber].losePoints();
     if (wasps[randomNumber].hp <= 0) {
@@ -65,6 +64,7 @@ document.querySelector('.btn').addEventListener("click", () => {
         }
         wasps.splice(randomNumber, 1);
     }
+    
     makeDivs();
     console.log(randomNumber);
 })
